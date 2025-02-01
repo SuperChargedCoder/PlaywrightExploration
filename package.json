@@ -1,0 +1,23 @@
+{
+  "name": "playwrightautomation-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "End2End": "npx playwright test tests/End2EndPageobjectmanager.spec.js",
+    "End2EndCustomConfig": "npx playwright test tests/End2EndPageobjectmanager.spec.js --config playwright.configOne.js --project=ChromeHeadless",
+    "CucumberWithReportRetry" : "npx cucumber-js --retry 1 --exit --format html:CucumberReport.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "allure-playwright": "^3.0.7"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.1"
+  }
+}

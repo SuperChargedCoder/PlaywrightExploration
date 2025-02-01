@@ -1,0 +1,23 @@
+[
+    {
+        "wishlist": "ADIDAS ORIGINAL",
+        "emailid": "SC@gmail.com",
+        "password": "Selenium@123",
+        "nation": " India",
+        "orderConfirmationText": " Thankyou for the order. "
+    },
+    {
+        "wishlist": "IPHONE 13 PRO",
+        "emailid": "SC@gmail.com",
+        "password": "Selenium@123",
+        "nation": " India",
+        "orderConfirmationText": " Thankyou for the order. "
+    },
+    {
+        "wishlist": "qwerty",
+        "emailid": "SC@gmail.com",
+        "password": "Selenium@123",
+        "nation": " India",
+        "orderConfirmationText": " Thankyou for the order. "
+    }
+]
